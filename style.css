@@ -1,0 +1,100 @@
+body{
+    background: #33394B;
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+.ui-container{
+    background: #487CE3;
+    height: 400px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.content-img{
+    background: #fff;
+}
+img{
+    width: 80px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.content-bio{
+    font-size: 10pt;
+    text-align: center;
+}
+.content-social{
+ margin-top: 90px;
+    text-align: center;
+}
+.bx{
+    padding: 18px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.bx{
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+}
+
+/* hover effects */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color 
+
+/* Facebook */
+.bxl-facebook-circle,.bxl-messenger,.bxs-envelope {
+    background: #3B5998;
+    color: white;
+}
+.form_email{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 300px;
+    height: 400px;
+}
+.email,.name,.assunto{
+    width: 250px;
+    background: none;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    outline: none;
+    color: #fff;
+    margin-left: 20px;
+    border-bottom: 1px solid #fff;
+}
+.email:focus,.name:focus,.assunto:focus{
+    background: rgb(0, 183, 255);
+    padding: 10px;
+}
+.email::placeholder,.assunto::placeholder,.name::placeholder{
+    color: rgba(255, 255, 255, 0.678);
+}
+.btn{
+    margin-left: 120px;
+    padding: 5px;
+    background-color: rgb(0, 102, 255);
+    border: 1px solid rgb(0, 102, 255);
+    color: #fff;
+}
+.text-area{
+    margin-top: 10px;
+    background: none;
+    margin-left: 35px;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-family: sans-serif;
+}
